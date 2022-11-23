@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.github.gr3gdev.libgdx-preview</id>
+    <name>Plugin for preview libgdx application</name>
+    <vendor email="gr3g.dev@gmail.com" url="https://github.com/gr3gdev/libgdx-preview">gr3gdev</vendor>
+
+    <description><![CDATA[
+    Preview libgdx application into intellij.
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Sample Calendar" secondary="true" icon="AllIcons.General.Modified" anchor="right"
+                    factoryClass="org.intellij.sdk.toolWindow.MyToolWindowFactory"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
